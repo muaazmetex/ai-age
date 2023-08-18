@@ -1,0 +1,9 @@
+ninja
+Flask
+gunicorn
+dlib
+torch
+numpy
+Pillow
+torchvision
+matplotlib
