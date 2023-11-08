@@ -62,7 +62,7 @@ def inference():
                     myIP = get_external_ip()
                     #print("My Public IP:", myIP)
 
-                    base_url = f"http://duplexvps.metexlabz.com:5005/" 
+                    base_url = f"http://duplexvps.metexlabz.com:5006/" 
 
                     EXPERIMENT_TYPE = 'ffhq_aging'
 

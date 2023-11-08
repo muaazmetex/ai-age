@@ -2,8 +2,8 @@ ninja
 Flask
 gunicorn
 dlib
-torch
+torch==1.11.0
 numpy
 Pillow
-torchvision
+torchvision==0.12.0
 matplotlib
