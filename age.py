@@ -62,7 +62,7 @@ def inference():
                     myIP = get_external_ip()
                     #print("My Public IP:", myIP)
 
-                    base_url = f"http://duplexvps.metexlabz.com:5006/" 
+                    base_url = f"http://{myIP}:5000/" 
 
                     EXPERIMENT_TYPE = 'ffhq_aging'
 
@@ -124,7 +124,7 @@ def serve_image(filename):
     return send_from_directory(IMAGES_FOLDER, filename)
 
 if __name__ == "__main__":
-    app.run(debug=True, host='0.0.0.0', port=5006)
+    app.run(debug=True, host='0.0.0.0', port=5000)
 
 
 
